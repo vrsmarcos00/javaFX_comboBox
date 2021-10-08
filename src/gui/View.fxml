@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <ComboBox fx:id="comboBoxPerson" layoutX="125.0" layoutY="44.0" onAction="#onComboBoxPersonAction" prefHeight="31.0" prefWidth="179.0" promptText="Select a Person" />
+      <Button fx:id="btAll" layoutX="165.0" layoutY="93.0" mnemonicParsing="false" onAction="#onBtAllAction" prefHeight="31.0" prefWidth="99.0" text="All" />
+      <Label fx:id="labelResult" layoutX="30.0" layoutY="150.0" prefHeight="21.0" prefWidth="369.0" />
+   </children>
+</AnchorPane>
